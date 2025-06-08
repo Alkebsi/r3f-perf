@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="bim-ui-dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Input</title>
+  <style>
+    html {
+      font-family: sans-serif;
+    }
+
+    body {
+      background-color: var(--bim-ui_bg-base);
+    }
+
+    bim-number-input {
+      width: 15rem;
+    }
+
+    @media screen and (max-width: 480px) {
+      .container {
+        box-sizing: border-box;
+        width: 100%;
+        min-width: max-content;
+        padding: 20px 40px;
+      }
+
+      bim-number-input {
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <bim-number-input slider step="0.1" label="Element Height" pref="X" min="20" max="100"
+      suffix="m"></bim-number-input>
+  </div>
+  <script type="module" src="./example.ts"></script>
+</body>
+
+</html>
