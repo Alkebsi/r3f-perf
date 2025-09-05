@@ -1,5 +1,39 @@
 # Changelog
 
+## 1.0.0 (2025-06-08)
+
+
+### Features
+
+* additional vendor and webgl renderer info in the store and report ([9b9f94d](https://github.com/Alkebsi/r3f-perf/commit/9b9f94d521906ccbd5b5b9d09a3cb1155e17be69))
+* bump ([07d6954](https://github.com/Alkebsi/r3f-perf/commit/07d6954927eb8465d4355ead390d1f44db9dd2a4))
+* bump package ([22e4371](https://github.com/Alkebsi/r3f-perf/commit/22e4371af6fb49705ce9c4d773965cf2e1d5dfcd))
+* changeset ([7c85c05](https://github.com/Alkebsi/r3f-perf/commit/7c85c05a8a7fb80736d882e4adb69fd5b4ab2e99))
+* changeset ([bce0dd8](https://github.com/Alkebsi/r3f-perf/commit/bce0dd8cbeb7266e99b68839483c72c8d1932b08))
+* init v7 ([b6d7d92](https://github.com/Alkebsi/r3f-perf/commit/b6d7d92c127ce867f38e7e8fd772f3c0cb77cd7a))
+* name html group for easier debugging ([#41](https://github.com/Alkebsi/r3f-perf/issues/41)) ([a8db293](https://github.com/Alkebsi/r3f-perf/commit/a8db293b656436ddac7d2d06da122718b11a9711))
+* program tab - estimateBytesUsed for each buffer geometry ([864a07c](https://github.com/Alkebsi/r3f-perf/commit/864a07c9cffe490c04d7fca06e149a2fb627cefd))
+* show the buffer geometry informations in the programs tab and their % ([f9eca9c](https://github.com/Alkebsi/r3f-perf/commit/f9eca9c9452b6202422fa476f6079df8363a7e78))
+
+
+### Bug Fixes
+
+* 49 ([292adb1](https://github.com/Alkebsi/r3f-perf/commit/292adb112ce57e0780e57454452a6b450412035f))
+* camera rotation to prevent default_up ([#51](https://github.com/Alkebsi/r3f-perf/issues/51)) ([13ddcd4](https://github.com/Alkebsi/r3f-perf/commit/13ddcd4c544cd6945bae4938bdb5591fdfb2d9ca))
+* cpuMeasure return null in ios ([#47](https://github.com/Alkebsi/r3f-perf/issues/47)) ([9a1f860](https://github.com/Alkebsi/r3f-perf/commit/9a1f860377968b1b5de8b62268b81f860fa4332a))
+* deleteQuery on gpu query result available ([9abf661](https://github.com/Alkebsi/r3f-perf/commit/9abf661177b71526f0ab1a969dec7abd1bab4840))
+* don't tree-shake entries ([79c645a](https://github.com/Alkebsi/r3f-perf/commit/79c645a48adfbf9d89455d18888fa1eac520a231))
+* fix CI ([e8b5d56](https://github.com/Alkebsi/r3f-perf/commit/e8b5d56791f622308dba03f67a92a7157b09b3af))
+* fix wrong arraybuffer size ([e3cca7a](https://github.com/Alkebsi/r3f-perf/commit/e3cca7a417a55f248cb73cbeba26e4a7e8da8a5e))
+* merge package failed ([01cb0b3](https://github.com/Alkebsi/r3f-perf/commit/01cb0b3cf2a17dbcfc7c7c5873e9fcc9336c594b))
+* missed React import ([2a551e1](https://github.com/Alkebsi/r3f-perf/commit/2a551e111d007e53b4c5cce4721266de1a7aabe9))
+* report average log was not updated ([81df8bb](https://github.com/Alkebsi/r3f-perf/commit/81df8bbcd7f385d590a59d64ed6d2270c80b034b))
+* report average log was not updated ([cdf0b50](https://github.com/Alkebsi/r3f-perf/commit/cdf0b507037410252795897a30bd3e0bd69e8829))
+* report max values not getting updated ([84846af](https://github.com/Alkebsi/r3f-perf/commit/84846aff26d1fc75809935d046503e441aa6044e))
+* simplify Html component ([9779dc8](https://github.com/Alkebsi/r3f-perf/commit/9779dc8418d73bbdd95efe6933ec0bfe9353b390))
+* typo ([c9f3569](https://github.com/Alkebsi/r3f-perf/commit/c9f3569fb95d9d9b047d7e634b5cfdd7ce7e1c6b))
+* wrong npm beta version ([68db072](https://github.com/Alkebsi/r3f-perf/commit/68db072b9137331523a7f9c507c74eaacff9e57d))
+
 ## [2.4.0](https://github.com/ThatOpen/engine_ui-components/compare/v2.3.0...v2.4.0) (2024-11-28)
 
 
